@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "121456b591e2a9064bfb47ebf5bea228",
+    "revision": "6a2d7a40d1b506e9fbe3b9e6f30fbb88",
     "url": "/Employee-Management-App/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Employee-Management-App/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "599c471c1de0115b7b20",
+    "revision": "ab4ce86eba2ab022ff87",
     "url": "/Employee-Management-App/static/css/main.14437a68.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Employee-Management-App/static/js/2.a50160cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "599c471c1de0115b7b20",
-    "url": "/Employee-Management-App/static/js/main.d1ed1bed.chunk.js"
+    "revision": "ab4ce86eba2ab022ff87",
+    "url": "/Employee-Management-App/static/js/main.ad1334f9.chunk.js"
   },
   {
     "revision": "8e8f39b44b47f1b71aaf",
