@@ -7,15 +7,15 @@ class NavbarC extends Component {
     return (
       <Container className="container-fluid" style={{ marginBottom: "55px" }}>
         <Navbar className="fixed-top navbar-expand-lg" bg="primary" variant="dark">
-          <Navbar.Brand href="/">Employee Management App</Navbar.Brand>
+          <Navbar.Brand href="https://baranacikgoz.github.io/Employee-Management-App/">Employee Management App</Navbar.Brand>
           <Nav className="ml-auto">
-            <Link className="nav nav-link active" to="/">
+            <Link className="nav nav-link active" to="Employee-Management-App/">
               Home
             </Link>
-            <Link className="nav nav-link active" to="/adduser">
+            <Link className="nav nav-link active" to="Employee-Management-App/adduser">
               Add User
             </Link>
-            <Link className="nav nav-link active" to="/users">
+            <Link className="nav nav-link active" to="Employee-Management-App/users">
               Employee Database
             </Link>
           </Nav>
