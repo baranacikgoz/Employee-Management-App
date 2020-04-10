@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import AddUser from "../forms/AddUser"
+import "../index.css"
 
 class AddPage extends Component {
     render() {
         return (
-            <div style={{marginTop:"5%"}} >
-                <AddUser/>
-            </div>
+         <div className="bgimage">
+             <AddUser/>
+         </div>
+                
+           
         )
     }
 }

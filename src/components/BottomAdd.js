@@ -18,7 +18,7 @@ class BottomAdd extends Component {
       jobTitle,
       salary,
     };
-    const response = await axios.post("http://localhost:3004/users", newUser);
+    const response = await axios.post("https://infinite-escarpment-57092.herokuapp.com/users", newUser);
 
     dispatch({
       type: "ADD_USER",
@@ -40,7 +40,7 @@ class BottomAdd extends Component {
         {(value) => {
           return (
            
-              <Navbar  className="fixed-bottom text-center" style={{backgroundColor:"#eaeded"}}>
+              <Navbar  className="fixed-bottom text-center" style={{backgroundColor:"#d6dbdf"}}>
                 <div className="text-center col-md-12">
                   <Form onSubmit={this.addUser.bind(this, value.dispatch)}>
                     <Row>

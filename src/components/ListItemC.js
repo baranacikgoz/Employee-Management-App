@@ -8,7 +8,7 @@ class ListItemC extends Component {
     const { id } = this.props;
 
     console.log(id);
-    await axios.delete(`http://localhost:3004/users/${id}`);
+    await axios.delete(`https://infinite-escarpment-57092.herokuapp.com/users/${id}`);
 
     dispatch({
       type: "DELETE_USER",

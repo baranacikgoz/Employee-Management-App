@@ -13,9 +13,27 @@ code {
 }
 
 .bgimage{
-  background-image: url("https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?cs=srgb&dl=4k-wallpaper-background-blur-blurred-background-1242348.jpg&fm=jpg");
+  background-image: url("img/Web-Page-Background-Color.jpg");
   height: 100vh;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead h1 {
+  font-size: 2.25rem;
+}
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }

@@ -47,7 +47,7 @@ const response = await axios.post("http://localhost:3004/users",newUser)
       <UserConsumer>
         {(value) => {
           return (
-            <Container className="col-md-4">
+            <Container className="col-md-4 mt-auto">
             <Card className="text-center">
               <Card.Header id="header">
                 <div>

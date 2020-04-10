@@ -6,7 +6,7 @@ class NavbarC extends Component {
   render() {
     return (
       <Container className="container-fluid" style={{ marginBottom: "55px" }}>
-        <Navbar className="fixed-top" bg="primary" variant="dark">
+        <Navbar className="fixed-top navbar-expand-lg" bg="primary" variant="dark">
           <Navbar.Brand href="/">Employee Management App</Navbar.Brand>
           <Nav className="ml-auto">
             <Link className="nav nav-link active" to="/">
