@@ -25,12 +25,10 @@ class HomePage extends Component {
               If you want to try app, once click <a href="https://infinite-escarpment-57092.herokuapp.com/">here </a>to wake up the database.
               Now you are free to add, delete or edit employees.
             </p>
-            <button className="btn btn-primary btn-xl mr-2" href="https://github.com/baranacikgoz"
-              ><i className="fab fa-github fa-2x"></i></button
-            >
-            <button className="btn btn-primary btn-xl ml-2" href="www.linkedin.com/in/baran-acikgoz"
-              ><i className="fab fa-linkedin fa-2x"></i></button
-            >
+            <a className="btn btn-primary btn-xl mr-2" href="https://github.com/baranacikgoz"
+              ><i className="fab fa-github fa-2x"></i></a>
+            <a className="btn btn-primary btn-xl ml-2" href="www.linkedin.com/in/baran-acikgoz"
+              ><i className="fab fa-linkedin fa-2x"></i></a>
           </div>
         </div>
       </div>
