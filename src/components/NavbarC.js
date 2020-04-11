@@ -14,7 +14,7 @@ class NavbarC extends Component {
             <Nav.Link href="https://github.com/baranacikgoz">
               <i className="fab fa-github fa-2x"></i>
             </Nav.Link>
-            <Nav.Link href="www.linkedin.com/in/baran-acikgoz">
+            <Nav.Link href="https://www.linkedin.com/in/baran-acikgoz">
               <i className="fab fa-linkedin fa-2x"></i>
             </Nav.Link>
           </Nav>
