@@ -28,7 +28,7 @@ class HomePage extends Component {
                 employees.
               </p>
 
-              <Link className="btn btn-primary btn-xl mr-2 mb-2" to="/users">
+              <Link className="btn btn-primary btn-xl mr-2" to="/users">
                 Database & Operations
               </Link>
               <Link className="btn btn-primary btn-xl ml-2 mt-2" to="/adduser">

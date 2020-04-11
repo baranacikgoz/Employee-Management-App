@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Card, Row } from "react-bootstrap";
 import UserConsumer from "../context";
 import axios from "axios";
+import {Link} from "react-router-dom"
 
 class UpdateUser extends Component {
   state = {
@@ -106,9 +107,9 @@ class UpdateUser extends Component {
                         Save
                       </button>
 
-                      <a className="btn btn-success ml-2" href="/users">
+                      <Link className="btn btn-success ml-2" href="/users">
                         Go back
-                      </a>
+                      </Link>
                     </div>
                   </form>
                 </Card.Body>
