@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../index.css";
 
 class NavbarC extends Component {
@@ -18,10 +19,16 @@ class NavbarC extends Component {
             </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/">Home</Nav.Link>
+            <Link className="nav-link" to="/">
+              Home
+            </Link>
 
-            <Nav.Link href="/users">Database & Operations</Nav.Link>
-            <Nav.Link href="/adduser">Employee Add</Nav.Link>
+            <Link className="nav-link" to="/users">
+              Database & Operations
+            </Link>
+            <Link className="nav-link" to="/adduser">
+              Employee Add
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

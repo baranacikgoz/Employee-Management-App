@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../index.css";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 class HomePage extends Component {
   render() {
@@ -28,15 +29,12 @@ class HomePage extends Component {
                 employees.
               </p>
 
-              <Button
-                className="btn btn-primary btn-xl mr-2"
-                href="/users"
-              >
+              <Link className="btn btn-primary btn-xl mr-2" to="/users">
                 Database & Operations
-              </Button>
-              <a className="btn btn-primary btn-xl ml-2" href="/adduser">
+              </Link>
+              <Link className="btn btn-primary btn-xl ml-2" to="/adduser">
                 Employee Add
-              </a>
+              </Link>
             </div>
           </div>
         </div>
