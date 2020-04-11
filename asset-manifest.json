@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/Employee-Management-App/static/css/main.73b4caa3.chunk.css",
-    "main.js": "/Employee-Management-App/static/js/main.ed455090.chunk.js",
-    "main.js.map": "/Employee-Management-App/static/js/main.ed455090.chunk.js.map",
+    "main.js": "/Employee-Management-App/static/js/main.76326cb5.chunk.js",
+    "main.js.map": "/Employee-Management-App/static/js/main.76326cb5.chunk.js.map",
     "runtime-main.js": "/Employee-Management-App/static/js/runtime-main.9fd3e56a.js",
     "runtime-main.js.map": "/Employee-Management-App/static/js/runtime-main.9fd3e56a.js.map",
     "static/css/2.de424728.chunk.css": "/Employee-Management-App/static/css/2.de424728.chunk.css",
-    "static/js/2.981d05e5.chunk.js": "/Employee-Management-App/static/js/2.981d05e5.chunk.js",
-    "static/js/2.981d05e5.chunk.js.map": "/Employee-Management-App/static/js/2.981d05e5.chunk.js.map",
+    "static/js/2.0ac9ed8f.chunk.js": "/Employee-Management-App/static/js/2.0ac9ed8f.chunk.js",
+    "static/js/2.0ac9ed8f.chunk.js.map": "/Employee-Management-App/static/js/2.0ac9ed8f.chunk.js.map",
     "index.html": "/Employee-Management-App/index.html",
-    "precache-manifest.201980e69d7d74f6a97a701cdbd8e70a.js": "/Employee-Management-App/precache-manifest.201980e69d7d74f6a97a701cdbd8e70a.js",
+    "precache-manifest.e020d00b4383e92598f7e5f202edfdec.js": "/Employee-Management-App/precache-manifest.e020d00b4383e92598f7e5f202edfdec.js",
     "service-worker.js": "/Employee-Management-App/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/Employee-Management-App/static/css/2.de424728.chunk.css.map",
     "static/css/main.73b4caa3.chunk.css.map": "/Employee-Management-App/static/css/main.73b4caa3.chunk.css.map",
-    "static/js/2.981d05e5.chunk.js.LICENSE.txt": "/Employee-Management-App/static/js/2.981d05e5.chunk.js.LICENSE.txt",
+    "static/js/2.0ac9ed8f.chunk.js.LICENSE.txt": "/Employee-Management-App/static/js/2.0ac9ed8f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Employee-Management-App/static/media/Web-Page-Background-Color.18d0f997.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9fd3e56a.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.981d05e5.chunk.js",
+    "static/js/2.0ac9ed8f.chunk.js",
     "static/css/main.73b4caa3.chunk.css",
-    "static/js/main.ed455090.chunk.js"
+    "static/js/main.76326cb5.chunk.js"
   ]
 }
