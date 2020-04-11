@@ -22,4 +22,4 @@ A step by step series of how to install react.js and run apps like that:
 
 ## Author
 
-* **Baran Açıkgöz** - [Web Page](https://baranacikgoz.github.io/)
+* [**Baran Açıkgöz**](https://baranacikgoz.github.io/)
