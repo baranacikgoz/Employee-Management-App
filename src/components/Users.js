@@ -17,8 +17,8 @@ class Users extends Component {
                     <th>Name</th>
                     <th>Job</th>
                     <th>Salary</th>
-                    <th>Edit User</th>
-                    <th>Delete User</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                   </tr>
                 </thead>
                 <tbody>

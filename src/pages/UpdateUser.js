@@ -55,7 +55,7 @@ class UpdateUser extends Component {
       <UserConsumer>
         {(value) => {
           return (
-            <Container className="col-md-4">
+            <Container className="col-md-4" style={{paddingTop:"70px"}}>
               <Card className="text-center">
                 <Card.Header id="header">
                   <div>

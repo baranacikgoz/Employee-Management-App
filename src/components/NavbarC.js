@@ -1,26 +1,30 @@
 import React, { Component } from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
+import "../index.css";
 
 class NavbarC extends Component {
   render() {
     return (
-      <Container className="container-fluid" style={{ marginBottom: "55px" }}>
-        <Navbar className="fixed-top navbar-expand-lg" bg="primary" variant="dark">
-          <Navbar.Brand href="https://baranacikgoz.github.io/Employee-Management-App/">Employee Management App</Navbar.Brand>
-          <Nav className="ml-auto">
-            <Link className="nav nav-link active" to="Employee-Management-App/">
-              Home
-            </Link>
-            <Link className="nav nav-link active" to="Employee-Management-App/adduser">
-              Add User
-            </Link>
-            <Link className="nav nav-link active" to="Employee-Management-App/users">
-              Employee Database
-            </Link>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+        <Navbar.Brand href="/home">Employee Managent App</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="https://github.com/baranacikgoz">
+              <i className="fab fa-github fa-2x"></i>
+            </Nav.Link>
+            <Nav.Link href="www.linkedin.com/in/baran-acikgoz">
+              <i className="fab fa-linkedin fa-2x"></i>
+            </Nav.Link>
           </Nav>
-        </Navbar>
-      </Container>
+          <Nav>
+            <Nav.Link href="/">Home</Nav.Link>
+
+            <Nav.Link href="/users">Database & Operations</Nav.Link>
+            <Nav.Link href="/adduser">Employee Add</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     );
   }
 }

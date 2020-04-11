@@ -53,7 +53,7 @@ const response = await axios.post("http://localhost:3004/users",newUser)
                 <div>
                   <Row>
                     <div className="col-md-9 text-center">
-                      <Card.Text as="h4">User add form</Card.Text>
+                      <Card.Text as="h4">Employee add form</Card.Text>
                     </div>
                     <div className="col-md-2">
                       <Button
