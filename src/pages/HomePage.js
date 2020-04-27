@@ -28,10 +28,10 @@ class HomePage extends Component {
                 employees.
               </p>
 
-              <Link className="btn btn-primary btn-xl mr-2" to="/users">
+              <Link className="btn btn-dark btn-xl mr-2" to="/users">
                 Database & Operations
               </Link>
-              <Link className="btn btn-primary btn-xl ml-2 mt-2" to="/adduser">
+              <Link className="btn btn-dark btn-xl ml-2" to="/adduser">
                 Employee Add
               </Link>
             </div>

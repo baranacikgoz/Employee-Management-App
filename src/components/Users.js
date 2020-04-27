@@ -9,8 +9,8 @@ class Users extends Component {
       <UserConsumer>
         {(value) => {
           return (
-            <div>
-              <Table responsive bordered hover className="text-center" size="md">
+            <div class="container">
+              <Table responsive="sm" bordered hover className="text-center">
                 <thead>
                   <tr>
                     <th>ID</th>

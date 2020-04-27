@@ -1,11 +1,17 @@
 import React, { Component } from "react";
-import { Container, Form, Card, Button, Row, InputGroup, Col } from "react-bootstrap";
+import {
+  Container,
+  Form,
+  Card,
+  Button,
+  InputGroup,
+  Col,
+} from "react-bootstrap";
 import UserConsumer from "../context";
 import axios from "axios";
 
 class AddUser extends Component {
   state = {
-    visible: true,
     name: "",
     jobTitle: "",
     salary: "",
@@ -19,13 +25,13 @@ class AddUser extends Component {
 
   addUser = async (dispatch, e) => {
     e.preventDefault();
-    const {name,jobTitle,salary} = this.state;
+    const { name, jobTitle, salary } = this.state;
     const newUser = {
       name,
       jobTitle,
       salary,
     };
-const response = await axios.post("http://localhost:3004/users",newUser)
+    const response = await axios.post("http://localhost:3004/users", newUser);
 
     dispatch({
       type: "ADD_USER",
@@ -47,27 +53,14 @@ const response = await axios.post("http://localhost:3004/users",newUser)
       <UserConsumer>
         {(value) => {
           return (
-            <Container className="col-md-4 mt-auto">
-            <Card className="text-center">
-              <Card.Header id="header">
-                <div>
-                  <Row>
-                    <div className="col-md-9 text-center">
-                      <Card.Text as="h4">Employee add form</Card.Text>
-                    </div>
-                    <div className="col-md-2">
-                      <Button
-                        onClick={this.changeVisibility}
-                        variant="outline-primary"
-                        size="sm"
-                      >
-                        {this.state.visible ? "Hide" : "Show"}
-                      </Button>
-                    </div>
-                  </Row>
-                </div>
-              </Card.Header>
-              {this.state.visible ? (
+            <Container style={{paddingTop:"50px"}} className="col-md-4">
+              <Card className="text-center">
+                <Card.Header id="header">
+                  <div className="text-center">
+                    <Card.Text as="h4">Add form</Card.Text>
+                  </div>
+                </Card.Header>
+
                 <Card.Body>
                   <Form onSubmit={this.addUser.bind(this, value.dispatch)}>
                     <Form.Group
@@ -102,6 +95,7 @@ const response = await axios.post("http://localhost:3004/users",newUser)
                       onChange={this.addSalary}
                       as={Col}
                       md="8"
+                      className="mr-auto ml-auto"
                       controlId="salary"
                     >
                       <Form.Label>Salary : </Form.Label>
@@ -124,15 +118,14 @@ const response = await axios.post("http://localhost:3004/users",newUser)
                     </Form.Group>
                     <Button
                       className="btn btn-block"
-                      variant="primary"
+                      variant="dark"
                       type="submit"
                     >
                       Save
                     </Button>
                   </Form>
                 </Card.Body>
-              ) : null}
-            </Card>
+              </Card>
             </Container>
           );
         }}

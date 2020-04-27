@@ -107,7 +107,7 @@ class UpdateUser extends Component {
                         Save
                       </button>
 
-                      <Link className="btn btn-success ml-2" href="/users">
+                      <Link className="btn btn-success ml-2" to="/users">
                         Go back
                       </Link>
                     </div>

@@ -22,7 +22,7 @@ class ListItemC extends Component {
         {(value) => {
           return (
             <tr>
-              <td>{this.props.id}</td>
+              <td className="col-md-1">{this.props.id}</td>
               <td>{this.props.name}</td>
               <td>{this.props.jobTitle}</td>
               <td>{this.props.salary}</td>
