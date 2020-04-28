@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 class HomePage extends Component {
   render() {
     return (
-      <header className="masthead bgimage">
+      <header className="masthead ">
         <div className="container h-100">
           <div className="row h-100 align-items-center justify-content-center text-center">
             <div className="col-lg-10 align-self-end">

@@ -2,8 +2,10 @@ import React, { Component } from "react";
 import { Navbar, Row, Col, Form, Button, Nav } from "react-bootstrap";
 import UserConsumer from "../context";
 import axios from "axios";
+import {animateScroll as scroll } from "react-scroll";
 
 class BottomAdd extends Component {
+  
   constructor(props) {
     super(props);
 
@@ -16,6 +18,9 @@ class BottomAdd extends Component {
       salary: "",
     };
   }
+  scrollToBottom() {
+   scroll.scrollToBottom();
+}
   addUser = async (dispatch, e) => {
     e.preventDefault();
     const { name, jobTitle, salary } = this.state;
@@ -49,24 +54,29 @@ class BottomAdd extends Component {
   addSalary = (e) => {
     this.setState({ salary: e.target.value });
   };
+ 
   render() {
+    
     return (
       <UserConsumer>
         {(value) => {
           const collapsed = this.state.collapsed;
           return (
+            <footer style={this.state.collapsed ? { paddingTop: "340px" } : { paddingTop: "90px" }}>
             <Navbar
-              className="text-center"
+              className="text-center fixed-bottom"
+             
               collapseOnSelect
               expand="md"
               bg="dark"
               variant="dark"
             >
               <Navbar.Brand>Add Employee Easily</Navbar.Brand>
+              
               <Navbar.Toggle
-                onClick={this.toggleNavbar}
+                onClick={() => { this.toggleNavbar(); this.scrollToBottom();}}
                 aria-controls="responsive-navbar-nav"
-              />
+              ></Navbar.Toggle>
               <Navbar.Collapse id="responsive-navbar-nav">
                 {collapsed ? (
                   <Nav>
@@ -122,7 +132,7 @@ class BottomAdd extends Component {
                   </Nav>
                 ) : (
                   <Nav className="ml-auto mr-auto">
-                    <Form
+                    <Form id ="id" 
                       className="text-center col-md-auto"
                       onSubmit={this.addUser.bind(this, value.dispatch)}
                     >
@@ -176,11 +186,13 @@ class BottomAdd extends Component {
                             Clik to add user.
                           </Form.Text>
                           <Button
-                            className="btn btn-success ml-auto mr-auto"
-                            type="submit"
-                          >
-                            <i className="fas fa-user-plus"></i>
-                          </Button>
+                        className="btn col-md-3 ml-auto mr-auto"
+                        variant="primary"
+                        type="submit"
+                      >
+                        <i className="fas fa-user-plus"></i>
+                      </Button>
+              
                         </Col>
                       </Row>
                     </Form>
@@ -188,6 +200,7 @@ class BottomAdd extends Component {
                 )}
               </Navbar.Collapse>
             </Navbar>
+            </footer>
           );
         }}
       </UserConsumer>

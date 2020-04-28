@@ -12,13 +12,13 @@ code {
     monospace;
 }
 
-.bgimage{
-  background-image: url("img/Web-Page-Background-Color.jpg");
+/* .bgimage{
+
   height: 100vh;
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
-}
+background-size: cover; 
+}*/
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);

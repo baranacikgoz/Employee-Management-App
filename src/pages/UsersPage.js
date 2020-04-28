@@ -5,11 +5,11 @@ import BottomAdd from "../components/BottomAdd";
 class UsersPage extends Component {
   render() {
     return (
-      <div classname="container" >
-        <body style={{ paddingTop: "80px" }}>
-          <Users />
+      <div style={{ paddingTop: "70px" }}>
+        <Users />
+        
           <BottomAdd />
-        </body>
+      
       </div>
     );
   }
