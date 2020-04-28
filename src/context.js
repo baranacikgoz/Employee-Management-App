@@ -36,7 +36,7 @@ export class UserProvider extends Component {
   };
 
   componentDidMount = async () => {
-    const response = await axios.get("https://infinite-escarpment-57092.herokuapp.com/users");
+    const response = await axios.get("https://enigmatic-beyond-40269.herokuapp.com/users");
     this.setState({
       users: response.data,
     });

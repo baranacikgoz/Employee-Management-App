@@ -31,7 +31,7 @@ class AddUser extends Component {
       jobTitle,
       salary,
     };
-    const response = await axios.post("http://localhost:3004/users", newUser);
+    const response = await axios.post("https://enigmatic-beyond-40269.herokuapp.com/users", newUser);
 
     dispatch({
       type: "ADD_USER",

@@ -15,7 +15,7 @@ class UpdateUser extends Component {
     const { id } = this.props.match.params;
     console.log(id);
 
-    const response = await axios.get(`https://infinite-escarpment-57092.herokuapp.com/users/${id}`);
+    const response = await axios.get(`https://enigmatic-beyond-40269.herokuapp.com/users/${id}`);
     const { name, jobTitle, salary } = response.data;
     this.setState({
       name,
@@ -35,7 +35,7 @@ class UpdateUser extends Component {
     };
     console.log(updatedUser);
     const response = await axios.put(
-      `https://infinite-escarpment-57092.herokuapp.com/users/${id}`,
+      `https://enigmatic-beyond-40269.herokuapp.com/users/${id}`,
       updatedUser
     );
 

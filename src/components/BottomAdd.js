@@ -30,7 +30,7 @@ class BottomAdd extends Component {
       salary,
     };
     const response = await axios.post(
-      "https://infinite-escarpment-57092.herokuapp.com/users",
+      "https://enigmatic-beyond-40269.herokuapp.com/users",
       newUser
     );
 
