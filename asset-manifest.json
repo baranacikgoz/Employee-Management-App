@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/Employee-Management-App/static/css/main.73b4caa3.chunk.css",
-    "main.js": "/Employee-Management-App/static/js/main.d8c5b38f.chunk.js",
-    "main.js.map": "/Employee-Management-App/static/js/main.d8c5b38f.chunk.js.map",
+    "main.css": "/Employee-Management-App/static/css/main.c6c79d2a.chunk.css",
+    "main.js": "/Employee-Management-App/static/js/main.d3e2ba88.chunk.js",
+    "main.js.map": "/Employee-Management-App/static/js/main.d3e2ba88.chunk.js.map",
     "runtime-main.js": "/Employee-Management-App/static/js/runtime-main.9fd3e56a.js",
     "runtime-main.js.map": "/Employee-Management-App/static/js/runtime-main.9fd3e56a.js.map",
     "static/css/2.de424728.chunk.css": "/Employee-Management-App/static/css/2.de424728.chunk.css",
-    "static/js/2.31968051.chunk.js": "/Employee-Management-App/static/js/2.31968051.chunk.js",
-    "static/js/2.31968051.chunk.js.map": "/Employee-Management-App/static/js/2.31968051.chunk.js.map",
+    "static/js/2.d56bd9e5.chunk.js": "/Employee-Management-App/static/js/2.d56bd9e5.chunk.js",
+    "static/js/2.d56bd9e5.chunk.js.map": "/Employee-Management-App/static/js/2.d56bd9e5.chunk.js.map",
     "index.html": "/Employee-Management-App/index.html",
-    "precache-manifest.77bcdce15a19af1b01767aa576c9f42b.js": "/Employee-Management-App/precache-manifest.77bcdce15a19af1b01767aa576c9f42b.js",
+    "precache-manifest.f2895f3910e7a8e802163d198cc3f9c7.js": "/Employee-Management-App/precache-manifest.f2895f3910e7a8e802163d198cc3f9c7.js",
     "service-worker.js": "/Employee-Management-App/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/Employee-Management-App/static/css/2.de424728.chunk.css.map",
-    "static/css/main.73b4caa3.chunk.css.map": "/Employee-Management-App/static/css/main.73b4caa3.chunk.css.map",
-    "static/js/2.31968051.chunk.js.LICENSE.txt": "/Employee-Management-App/static/js/2.31968051.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Employee-Management-App/static/media/Web-Page-Background-Color.18d0f997.jpg"
+    "static/css/main.c6c79d2a.chunk.css.map": "/Employee-Management-App/static/css/main.c6c79d2a.chunk.css.map",
+    "static/js/2.d56bd9e5.chunk.js.LICENSE.txt": "/Employee-Management-App/static/js/2.d56bd9e5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9fd3e56a.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.31968051.chunk.js",
-    "static/css/main.73b4caa3.chunk.css",
-    "static/js/main.d8c5b38f.chunk.js"
+    "static/js/2.d56bd9e5.chunk.js",
+    "static/css/main.c6c79d2a.chunk.css",
+    "static/js/main.d3e2ba88.chunk.js"
   ]
 }
