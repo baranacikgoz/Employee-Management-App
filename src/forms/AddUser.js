@@ -31,7 +31,7 @@ class AddUser extends Component {
       jobTitle,
       salary,
     };
-    const response = await axios.post("https://enigmatic-beyond-40269.herokuapp.com/users", newUser);
+    const response = await axios.post("https://employe-management-api.herokuapp.com/users", newUser);
 
     dispatch({
       type: "ADD_USER",
@@ -134,98 +134,3 @@ class AddUser extends Component {
   }
 }
 export default AddUser;
-
-/* <Form.Group controlId="salaryInput">
-              <Form.Label>Salary : </Form.Label>
-              <Form.Control type="number" placeholder="7000" />
-              <Form.Text className="text-muted">
-                Enter the salary name please.
-              </Form.Text>
-            </Form.Group> */
-
-/*
-            
-            
-            <Form onSubmit={this.addUser}>
-              <Form.Group controlId={this.state.name}>
-                <Form.Label>Name : </Form.Label>
-                <Form.Control type="name" placeholder="Gandalf Grihamut" />
-                <Form.Text className="text-muted">
-                  Enter the name please.
-                </Form.Text>
-              </Form.Group>
-
-              <Form.Group controlId="jobTitle">
-                <Form.Label>Job : </Form.Label>
-                <Form.Control type="name" placeholder="White Wizard" />
-                <Form.Text className="text-muted">
-                  Enter the job please.
-                </Form.Text>
-              </Form.Group>
-
-              <Form.Group as={Col} md="8" controlId="salary">
-                <Form.Label>Salary : </Form.Label>
-                <InputGroup>
-                  <Form.Control
-                    type="number"
-                    placeholder="7000"
-                    aria-describedby="inputGroupPrepend"
-                    required
-                  />
-                  <InputGroup.Prepend>
-                    <InputGroup.Text id="inputGroupPrepend">
-                      USD
-                    </InputGroup.Text>
-                  </InputGroup.Prepend>
-                </InputGroup>
-                <Form.Text className="text-muted">
-                  Enter a valid number please.
-                </Form.Text>
-              </Form.Group>
-              <Button className="btn btn-block" variant="primary" type="submit">
-                Save
-              </Button>
-            </Form>*/
-
-/*
-
-<form onSubmit={this.addUser} >
-              <div className="form-group">
-                <label htmlFor="name">Name: </label>
-                <input
-                value={this.state.name}
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="enter name"
-                  className="form-control"
-                  onChange={this.addName}
-                ></input>
-              </div>
-              <div className="form-group" >
-                    <label htmlFor="jobTitle">Name: </label>
-                    <input
-                    type="text"
-                    name="jobTitle"
-                    id="jobTitle"
-                    placeholder="enter name"
-                    className="form-control"
-                    ></input>
-
-                </div>
-                <div className="form-group" >
-                    <label htmlFor="salary">Name: </label>
-                    <input
-                    type="text"
-                    name="salary"
-                    id="salary"
-                    placeholder="enter name"
-                    className="form-control"
-                    ></input>
-
-                </div>
-              <button type="submit" className="btn btn-success">
-                Save
-              </button>
-            </form>
-*/

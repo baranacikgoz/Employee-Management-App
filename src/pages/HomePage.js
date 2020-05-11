@@ -21,7 +21,7 @@ class HomePage extends Component {
               <hr className="divider my-4" />
               <p className="text-white-75 font-weight-light mb-5">
                 If you want to try app, once click{" "}
-                <a href="https://enigmatic-beyond-40269.herokuapp.com/">
+                <a href="https://employe-management-api.herokuapp.com/">
                   here{" "}
                 </a>
                 to wake up the database. Now you are free to add, delete or edit
